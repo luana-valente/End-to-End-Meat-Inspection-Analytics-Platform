@@ -500,3 +500,10 @@ No confidential data, credentials, personal information, or identifiable animal 
 
 Final project developed as part of the Postgraduate Program in Data Science & Business Analytics.
 
+## Final Remarks
+
+This project demonstrates how Data Engineering, dimensional and semantic modelling, Business Intelligence, and Machine Learning can be integrated into a single end-to-end analytical solution.
+
+The platform provides a unified view of swine slaughter activity, sanitary condemnation patterns, economic impact, traceability, and data quality. It also demonstrates the technical feasibility of predictive sanitary analysis, while highlighting the need for additional health, environmental, and transport-related variables before a reliable production model can be developed.
+
+Overall, the project should be viewed as a decision-support prototype and a foundation for future risk-based sanitary inspection initiatives.
