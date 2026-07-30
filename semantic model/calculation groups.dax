@@ -1,0 +1,32 @@
+-- Current
+SELECTEDMEASURE()
+
+-- Previous Year
+CALCULATE (
+    SELECTEDMEASURE(),
+    SAMEPERIODLASTYEAR ( 'Date'[Date] )
+)
+
+-- Year-over-Year
+SELECTEDMEASURE()
+    - CALCULATE (
+        SELECTEDMEASURE(),
+        SAMEPERIODLASTYEAR ( 'Date'[Date] )
+    )
+
+-- Year-to-Date
+CALCULATE (
+    SELECTEDMEASURE(),
+    DATESYTD ( 'Date'[Date] )
+)
+
+-- Moving Annual Total
+CALCULATE (
+    SELECTEDMEASURE(),
+    DATESINPERIOD (
+        'Date'[Date],
+        MAX ( 'Date'[Date] ),
+        -1,
+        YEAR
+    )
+)
