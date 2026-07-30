@@ -1,0 +1,50 @@
+-- Operational Measures
+
+Number of Slaughtered Pigs =
+SUM ( 'Fact_Sanitary_Control'[Slaughtered] )
+
+Number of Condemned Pigs =
+SUM ( 'Fact_Sanitary_Control'[Condemned] )
+
+Sanitary Condemnation Rate =
+DIVIDE (
+    [Number of Condemned Pigs],
+    [Number of Slaughtered Pigs],
+    0
+)
+
+-- Financial Measures
+
+Potential Value (€) =
+SUM ( 'Fact_Sanitary_Control'[Estimated Slaughter Value] )
+
+Financial Loss (€) =
+SUM ( 'Fact_Sanitary_Control'[Estimated Condemnation Loss] )
+
+Actual Value (€) =
+[Potential Value (€)] - [Financial Loss (€)]
+
+Financial Efficiency (%) =
+DIVIDE (
+    [Actual Value (€)],
+    [Potential Value (€)],
+    0
+)
+
+-- Data Quality Measures
+
+Total Batches =
+COUNTROWS ( 'Fact_Sanitary_Control' )
+
+Batches without Holding =
+CALCULATE (
+    [Total Batches],
+    ISBLANK ( 'Fact_Sanitary_Control'[Holding Key] )
+)
+
+Origin Identification Rate =
+DIVIDE (
+    [Total Batches] - [Batches without Holding],
+    [Total Batches],
+    0
+)
