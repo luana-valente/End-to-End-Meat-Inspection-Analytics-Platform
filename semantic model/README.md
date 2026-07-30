@@ -63,4 +63,12 @@ The model includes:
 - Time-based partitions for large fact tables to improve processing and refresh performance.
 
 > [!NOTE]
-> The complete semantic model project is not publicly available because it contains internal connection details and project-specific metadata. This folder provides selected documentation, diagrams, and representative DAX measures.
+> The complete semantic model project is not publicly available because it contains internal connection details and project-specific metadata. This folder therefore provides selected documentation, diagrams, and representative DAX measures.
+
+## Model Overview
+
+The following diagram shows the complete tabular semantic model, including fact tables, dimensions, relationships, and calculation groups.
+
+## Relationship Detail
+
+The following view provides a more detailed representation of the Star Schema relationships and selected business measures.
