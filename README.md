@@ -460,30 +460,44 @@ The solution should therefore be viewed as a **decision-support prototype and an
 
 ## Repository Structure
 
-```text
-meat-inspection-analytics/
-│
+machine-learning/
 ├── README.md
-├── docs/
-│   ├── architecture/
-│   ├── dimensional-model/
-│   └── project-report/
-│
-├── notebooks/
+├── limitations-and-future-work.md
+└── results/
+
+notebooks/
+├── README.md
+├── data-engineering/
 │   ├── bronze/
 │   ├── silver/
-│   ├── gold/
-│   └── machine-learning/
-│
-├── powerbi/
-│   └── screenshots/
-│
-├── semantic-model/
-│
-├── images/
-│
-└── data/
-    └── sample/
+│   └── gold/
+└── machine-learning/
+    ├── README.md
+    └── Nb_ML_Taxa_Reprovacao
+
+pipelines/
+├── README.md
+├── pipeline-master-orchestrator.png
+├── pipeline-audit-table.png
+└── architecture-execution-flow.png
+
+powerbi/
+├── README.md
+├── executive-dashboard.png
+├── financial-performance.png
+├── data-quality-and-audit.png
+├── condemnation-reasons.png
+└── slaughterhouse.png
+
+semantic-model/
+├── README.md
+├── calculation-groups.dax
+├── key-measures.dax
+├── security-and-partitions.md
+├── semantic-model-detail.png
+└── semantic-model-overview.png
+
+README.md
 
 ## Data Privacy
 
