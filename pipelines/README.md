@@ -44,8 +44,12 @@ This audit mechanism supports operational monitoring, troubleshooting, and histo
 
 ### Master Orchestrator
 
-![Microsoft Fabric Master Orchestrator](screenshots/master_orchestrator.png)
+<p align="center">
+  <img src="pipeline-master-orchestrator.png" width="800" alt="Pipeline Master Orchestrator">
+</p>
 
 ### Audit Log
 
-![Pipeline audit log](screenshots/pipeline_audit_log.png)
+<p align="center">
+  <img src="pipeline-audit-table.png" width="800" alt="Pipeline Audit log">
+</p>
