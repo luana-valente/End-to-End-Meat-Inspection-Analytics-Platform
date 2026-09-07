@@ -70,7 +70,7 @@ The model includes:
 The following diagram shows the complete tabular semantic model, including fact tables, dimensions, relationships, and calculation groups.
 
 <p align="center">
-  <img src="semantic-model/semantic-model-overview.png" width="800" alt="Semantic Model Overview">
+  <img src="./semantic-model/semantic-model-overview.png" width="800" alt="Semantic Model Overview">
 </p>
 
 ## Relationship Detail
@@ -78,5 +78,5 @@ The following diagram shows the complete tabular semantic model, including fact 
 The following view provides a more detailed representation of the Star Schema relationships and selected business measures.
 
 <p align="center">
-  <img src="semantic-model/semantic-model-detail.png" width="800" alt="Semantic Model Detail">
+  <img src="./semantic-model/semantic-model-detail.png" width="800" alt="Semantic Model Detail">
 </p>
