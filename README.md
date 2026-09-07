@@ -407,7 +407,7 @@ SHAP values were used to identify the variables with the greatest influence on p
 ### Model Results
 
 <p align="center">
-  <img src="machine-learning/results/final-metrics.ng" width="750" alt="final metrics">
+  <img src="machine-learning/results/final-metrics.png" width="750" alt="final metrics">
 </p>
 
 <p align="center">
