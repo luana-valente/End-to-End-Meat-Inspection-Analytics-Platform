@@ -407,11 +407,11 @@ SHAP values were used to identify the variables with the greatest influence on p
 ### Model Results
 
 <p align="center">
-  <img src="URL_MODELS" width="750" alt="Regression model comparison">
+  <img src="machine-learning/results/final-metrics.ng" width="750" alt="final metrics">
 </p>
 
 <p align="center">
-  <img src="URL_SHAP" width="750" alt="SHAP feature importance">
+  <img src="machine-learning/results/shap-summary.png" width="750" alt="SHAP feature importance">
 </p>
 
 ### Main Finding
