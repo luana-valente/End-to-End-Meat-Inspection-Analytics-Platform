@@ -352,15 +352,15 @@ The solution also includes bookmarks, a mobile layout, and publication through a
 The following report pages illustrate the operational, financial, and data quality perspectives developed in Power BI.
 
 <p align="center">
-  <img src="URL_DA_IMAGEM_1" width="800" alt="Slaughterhouse analytics dashboard">
+  <img src="URL_DA_IMAGEM_1" width="800" alt="Slaughterhouse Analytics Dashboard">
 </p>
 
 <p align="center">
-  <img src="URL_DA_IMAGEM_2" width="800" alt="Financial performance dashboard">
+  <img src="URL_DA_IMAGEM_2" width="800" alt="Financial Performance Dashboard">
 </p>
 
 <p align="center">
-  <img src="URL_DA_IMAGEM_3" width="800" alt="Data quality and audit dashboard">
+  <img src="URL_DA_IMAGEM_3" width="800" alt="Data Quality and Audit Dashboard">
 </p>
 
 ### Key BI Findings
